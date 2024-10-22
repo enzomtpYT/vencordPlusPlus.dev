@@ -1,6 +1,6 @@
-# [Vencord Website](https://vencord.dev)
+# [VencordPlusPlus Website](https://vencord-plus-plus-dev.vercel.app/)
 
-Vencord's official website, written in Astro + Svelte ❤️
+VencordPlusPlus' official website, written in Astro + Svelte ❤️
 
 ## API routes
 

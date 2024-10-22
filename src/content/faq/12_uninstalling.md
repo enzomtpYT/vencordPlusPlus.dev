@@ -1,6 +1,6 @@
 ---
-title: How do I uninstall Vencord?
+title: How do I uninstall VencordPlusPlus?
 tags: remove
 ---
 
-Vencord is uninstalled the same way you install it. Just use the "Uninstall" button instead
+VencordPlusPlus is uninstalled the same way you install it. Just use the "Uninstall" button instead
