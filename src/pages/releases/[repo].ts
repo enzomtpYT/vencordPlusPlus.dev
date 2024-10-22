@@ -2,8 +2,8 @@ import type { APIRoute } from "astro";
 import { getEnv } from "scripts/env";
 
 const Repos = {
-    installer: "Vencord/Installer",
-    vencord: "Vendicated/Vencord",
+    installer: "Piripe/VencordPlusPlusInstaller",
+    vencord: "Piripe/Vencord",
     "vencord-desktop": "Vencord/Desktop",
 };
 

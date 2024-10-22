@@ -1,18 +1,17 @@
 import { readFileSync, writeFileSync } from "fs";
 
 const BaseRedirects = {
-    "/github": "https://github.com/Vendicated/Vencord",
+    "/github": "https://github.com/piripe/Vencord",
     "/discord": "https://discord.gg/D9uwnFnqmd",
     "/support": "https://discord.gg/D9uwnFnqmd",
     "/install": "/download",
     "/plugins.json":
-        "https://raw.githubusercontent.com/Vencord/builds/main/plugins.json",
+        "https://github.com/Piripe/VencordPlusPlus/releases/download/devbuild/plugins.json",
     "/plugin-readmes.json":
-        "https://raw.githubusercontent.com/Vencord/builds/main/plugin-readmes.json",
+        "https://github.com/Piripe/VencordPlusPlus/releases/download/devbuild/plugin-readmes.json",
     "/donate": "https://github.com/sponsors/Vendicated",
     "/click-to-help/vencord": "https://github.com/sponsors/Vendicated",
-    "/docs/plugin-requests":
-        "https://github.com/Vencord/plugin-requests/issues/new?template=request.yml",
+    "/docs/plugin-requests": "https://github.com/Piripe/Vencord/issues/new",
 };
 
 const VesktopDownloads = version => ({

@@ -7,14 +7,15 @@ import { MINUTES, cacheResponseFor } from "scripts/cache";
 
 const Repos = [
     {
-        name: "Vencord",
-        description: "Vencord's main repository containing all inbuilt plugins",
-        repo: "Vendicated/Vencord",
+        name: "VencordPlusPlus",
+        description:
+            "VencordPlusPlus' main repository containing all inbuilt plugins",
+        repo: "Piripe/VencordPlusPlus",
     },
     {
-        name: "Vencord Installer",
-        description: "Vencord's Installer",
-        repo: "Vencord/Installer",
+        name: "VencordPlusPlus Installer",
+        description: "VencordPlusPlus' Installer",
+        repo: "Piripe/VencordPlusPlusInstaller ",
     },
     {
         name: "vencord.dev",
@@ -77,10 +78,10 @@ cacheResponseFor(Astro.response, 20 * MINUTES);
 
 <Layout
     title="Source Code"
-    description="List of Source Code repositories for all Vencord projects"
+    description="List of Source Code repositories for all Vencord and VencordPlusPlus projects"
 >
     <h1 class="p-page-title">Source Code</h1>
-    <p class="p-subtitle">Vencord's git repositories</p>
+    <p class="p-subtitle">Vencord's and VencordPlusPlus git repositories</p>
 
     <div>
         {repoData.map(data => (data ? <RepoCard {...data} /> : null))}

@@ -19,7 +19,7 @@ const structuredData = [
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        name: "Vencord",
+        name: "VencordPlusPlus",
         alternateName: "VC",
         url: Astro.site,
     },
@@ -27,7 +27,7 @@ const structuredData = [
     {
         "@context": "https://schema.org",
         "@type": ["WebApplication", "SoftwareApplication"],
-        name: "Vencord",
+        name: "VencordPlusPlus",
         operatingSystem: "Windows,macOS,Linux",
         applicationCategory: "UtilitiesApplication",
         browserRequirements:
@@ -78,7 +78,9 @@ if (Astro.url.pathname === "/") {
 <html lang="en">
     <!-- read if cute :3 -->
     <head>
-        <title>{title ? `${title} | Vencord` : "Vencord"}</title>
+        <title>
+            {title ? `${title} | VencordPlusPlus` : "VencordPlusPlus"}
+        </title>
 
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -93,14 +95,17 @@ if (Astro.url.pathname === "/") {
         />
 
         <meta name="description" content={description} />
-        <meta name="author" content="Vencord Contributors" />
+        <meta name="author" content="VencordPlusPlus Contributors" />
         <meta name="theme-color" content="#dd7878" />
 
         {
             opengraph !== false && (
                 <>
                     <meta name="og:type" content="website" />
-                    <meta name="og:title" content={title ?? "Vencord"} />
+                    <meta
+                        name="og:title"
+                        content={title ?? "VencordPlusPlus"}
+                    />
                     <meta name="og:description" content={description} />
                     <meta name="og:url" content={Astro.url} />
                     <meta
@@ -115,7 +120,7 @@ if (Astro.url.pathname === "/") {
         }
         {
             title && opengraph !== false && (
-                <meta name="og:site_name" content="Vencord" />
+                <meta name="og:site_name" content="VencordPlusPlus" />
             )
         }
 
